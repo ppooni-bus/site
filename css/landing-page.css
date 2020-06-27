@@ -31,6 +31,7 @@ article.post{
 }
 .post-content{
     max-width: 800px;
+    width: 100%;
     padding: 10px;
 }
 .nav.navbar-nav>li>a{
