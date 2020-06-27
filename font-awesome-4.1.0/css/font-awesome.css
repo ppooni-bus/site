@@ -558,7 +558,7 @@
   content: "\f081";
 }
 .fa-kakaotalk:before {
-  background: url(/img/kakaotalk.svg) no-repeat center center;
+  background: url(../../img/kakaotalk.svg) no-repeat center center;
   background-size: contain;
   height: 18px;
 }
