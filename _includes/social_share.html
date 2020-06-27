@@ -11,7 +11,7 @@
         evt.preventDefault();
         FB.ui({
             method: 'share',
-            href: '{{relative_url}}',
+            href: '{{site.baseUrl}}{{relative_url}}',
         }, function(response){});
     })
     $('.btn-social-share-kakaotalk').click(function(evt){
@@ -21,10 +21,10 @@
             content: {
                 title: "똥그리버스",
                 description: "제주도를 위해 만들어진 버스앱",
-                imageUrl: '{{relative_url}}/img/icon.png',
+                imageUrl: '{{site.baseUrl}}{{relative_url}}/img/icon.png',
                 link: {
-                    webUrl: "{{relative_url}}",
-                    mobileWebUrl: "{{relative_url}}",
+                    webUrl: "{{site.baseUrl}}{{relative_url}}",
+                    mobileWebUrl: "{{site.baseUrl}}{{relative_url}}",
                 }
             }
         });

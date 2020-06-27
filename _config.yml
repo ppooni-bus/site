@@ -3,6 +3,7 @@
 # ----------------------- #
 
 url: https://ddongree-bus.github.io/site/
+baseUrl: https://ddongree-bus.github.io
 title: "똥그리버스"
 email: caffeine.driven.dev@gmail.com
 author: devCaffeine
