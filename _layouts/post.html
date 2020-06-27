@@ -4,7 +4,7 @@ layout: default
 <section id="home">
   <!-- Header -->
   {%if page.headerimg %}
-  <div class="intro-header" style="background-image: url(/img/{{page.headerimg}});">
+  <div class="intro-header" style="background-image: url({{'/img/' | relative_url}}{{page.headerimg}});">
   {% else %}
   <div class="intro-header">
   {% endif%}
