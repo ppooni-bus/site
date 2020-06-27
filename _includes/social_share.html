@@ -11,7 +11,7 @@
         evt.preventDefault();
         FB.ui({
             method: 'share',
-            href: 'http://ddongree-bus-app.github.io',
+            href: '{{relative_url}}',
         }, function(response){});
     })
     $('.btn-social-share-kakaotalk').click(function(evt){
@@ -21,10 +21,10 @@
             content: {
                 title: "똥그리버스",
                 description: "제주도를 위해 만들어진 버스앱",
-                imageUrl: 'http://ddongree-bus-app.github.io/img/icon.png',
+                imageUrl: '{{relative_url}}/img/icon.png',
                 link: {
-                    webUrl: "http://ddongree-bus-app.github.io",
-                    mobileWebUrl: "http://ddongree-bus-app.github.io",
+                    webUrl: "{{relative_url}}",
+                    mobileWebUrl: "{{relative_url}}",
                 }
             }
         });
