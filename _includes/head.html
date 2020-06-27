@@ -6,11 +6,11 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
 
-    <meta property="og:url" content="{{page.url}}" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{site.title}} - {{page.title}}" />
     <meta property="og:description" content="{{page.subTitle}}" />
-    <meta property="og:image" content="{{ '/image/og-img.png' | relative_url}}" />
+    <meta property="og:image" content="{{site.url}}{{ '/image/og-img.png' | relative_url}}" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
