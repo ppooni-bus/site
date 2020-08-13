@@ -15,7 +15,10 @@
                     <div class="lead">{{ description.body }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="{{ '/img/services/'| relative_url}}{{ description.img }}" alt="">
+                    <div class="app-img-wrapper">
+                        {% for image in description.imgs %}
+                            <img class="img-responsive app-img" src="{{ '/img/services/'| relative_url}}{{ image }}" alt="">
+                        {% endfor %}
                 </div>
             </div>
 
@@ -38,7 +41,11 @@
                     <div class="lead">{{ description.body }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="{{ 'img/services/' | relative_url}}{{ description.img }}" alt="">
+                    <div class="app-img-wrapper">
+                        {% for image in description.imgs %}
+                            <img class="img-responsive app-img" src="{{ '/img/services/'| relative_url}}{{ image }}" alt="">
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
 
