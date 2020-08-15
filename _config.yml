@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://ddongree-bus.github.io/site/
-baseUrl: https://ddongree-bus.github.io
+url: https://ddongree-bus-app.devcaffeine.net
+baseUrl: https://ddongree-bus-app.devcaffeine.net
 title: "똥그리버스"
 email: caffeine.driven.dev@gmail.com
 author: devCaffeine
