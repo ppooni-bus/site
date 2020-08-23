@@ -12,4 +12,4 @@ permalink: /contact
 
 검토 후에 개선할 수 있도록 하곘습니다.
 
-[의견 보내기](mailto://caffeine.driven.dev@gmail.com)
+[의견 보내기](mailto:caffeine.driven.dev@gmail.com)
