@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 vendor
 *.code-workspace
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

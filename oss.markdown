@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opensource Licenses
-subTitle: 똥그리버스앱에 사용된 오픈소스 목록
+subTitle: 뿌니버스앱에 사용된 오픈소스 목록
 permalink: /oss
 headerimg: banner-bg.jpg
 ---

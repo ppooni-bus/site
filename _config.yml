@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://ddongree-bus-app.devcaffeine.net
-baseUrl: https://ddongree-bus-app.devcaffeine.net
-title: "똥그리버스"
+url: https://ppooni-bus-app.devcaffeine.net
+baseUrl: https://ppooni-bus-app.devcaffeine.net
+title: "뿌니버스"
 email: caffeine.driven.dev@gmail.com
 author: devCaffeine
-description: 똥그리버스를 위한 웹 페이지
+description: 뿌니버스를 위한 웹 페이지
 
 # ----------------------- #
 #    Jekyll & Plugins     #
